@@ -1,0 +1,48 @@
+@import url("https://use.typekit.net/vgx2vhc.css");
+
+:root {
+  font-family: "t26-carbon", monospace;
+  font-variant: tabular-nums;
+  color-scheme: light dark;
+
+  --color-blue: #057FFA; 
+  --color-yellow: #F9E10F; 
+  --color-red: #F43575; 
+  --background-color: hsl(210, 24%, 8%);
+  color: #ffffff;
+  background-color: hsl(210, 24%, 8%);
+  --y-line-stroke: hsl(210, 4%, 60%);
+  --y-axis-label: hsl(210, 4%, 80%);
+  --x-line-stroke: white;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: hsl(210, 24%, 8%);
+    --y-line-stroke: hsl(210, 4%, 60%);
+    --y-axis-label: hsl(210, 4%, 80%);
+    --x-line-stroke: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: hsl(210, 24%, 8%);
+    --y-line-stroke: hsl(210, 4%, 60%);
+    --y-axis-label: hsl(210, 4%, 80%);
+    --x-line-stroke: white;
+  }
+}
